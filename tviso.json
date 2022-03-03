@@ -1,0 +1,170 @@
+[
+    {
+        "title": "Tiger King",
+        "imdb": "tt11823076",
+        "type": 1,
+        "rating": 6,
+        "status": "following",
+        "checkedDate": "2021-12-11T09:07:15+00:00"
+    },
+    {
+        "title": "Dallas Buyers Club",
+        "imdb": "tt0790636",
+        "type": 2,
+        "rating": 6,
+        "status": "watched",
+        "checkedDate": "2021-12-11T09:01:35+00:00"
+    },
+    {
+        "title": "El Sonido del Metal",
+        "imdb": "tt5363618",
+        "type": 2,
+        "rating": 4,
+        "status": "watched",
+        "checkedDate": "2021-12-11T09:00:58+00:00"
+    },
+    {
+        "title": "G.E.O. Más Allá del Límite",
+        "imdb": "tt13063852",
+        "type": 1,
+        "rating": 9,
+        "status": "watched",
+        "checkedDate": "2021-12-11T09:00:12+00:00"
+    },
+    {
+        "title": "Black Mirror",
+        "imdb": "tt2085059",
+        "type": 1,
+        "rating": 10,
+        "status": "watched",
+        "checkedDate": "2021-12-11T08:55:13+00:00"
+    },
+    {
+        "title": "Big Bang",
+        "imdb": "tt0898266",
+        "type": 1,
+        "rating": 7,
+        "status": "watched",
+        "checkedDate": "2021-12-11T08:55:05+00:00"
+    },
+    {
+        "title": "Por trece razones",
+        "imdb": "tt1837492",
+        "type": 1,
+        "rating": null,
+        "status": "watched",
+        "checkedDate": "2021-12-11T08:54:43+00:00"
+    },
+    {
+        "title": "Stranger Things",
+        "imdb": "tt4574334",
+        "type": 1,
+        "rating": 7,
+        "status": "watched",
+        "checkedDate": "2021-12-11T08:54:14+00:00"
+    },
+    {
+        "title": "La casa de papel",
+        "imdb": "tt6468322",
+        "type": 1,
+        "rating": 9,
+        "status": "watched",
+        "checkedDate": "2021-12-11T08:53:47+00:00"
+    },
+       {
+        "title": "Upload",
+        "imdb": "tt7826376",
+        "type": 1,
+        "rating": 7,
+        "status": "watched",
+        "checkedDate": "2021-12-11T08:53:35+00:00"
+    },
+    {
+        "title": "Langosta",
+        "imdb": "tt3464902",
+        "type": 2,
+        "rating": 4,
+        "status": "watched",
+        "checkedDate": "2021-12-11T08:51:57+00:00"
+    },
+    {
+        "title": "El juego del calamar",
+        "imdb": "tt10919420",
+        "type": 1,
+        "rating": 7,
+        "status": "watched",
+        "checkedDate": "2021-12-11T08:50:30+00:00"
+    },
+    {
+        "title": "¿Quién es América?",
+        "imdb": "tt8679236",
+        "type": 1,
+        "rating": null,
+        "status": "pending",
+        "checkedDate": "2021-10-17T21:17:52+00:00"
+    },
+    {
+        "title": "30 Rock: Kenneth the Webpage",
+        "imdb": "tt1639467",
+        "type": 1,
+        "rating": null,
+        "status": "pending",
+        "checkedDate": "2021-10-17T21:16:14+00:00"
+    },
+    {
+        "title": "The Gentlemen: Los señores de la mafia",
+        "imdb": "tt8367814",
+        "type": 2,
+        "rating": null,
+        "status": "pending",
+        "checkedDate": "2021-08-24T13:21:20+00:00"
+    },
+    {
+        "title": "The Game",
+        "imdb": "tt0119174",
+        "type": 2,
+        "rating": null,
+        "status": "pending",
+        "checkedDate": "2021-08-24T13:21:10+00:00"
+    },
+    {
+        "title": "Casa ajena",
+        "imdb": "tt8508734",
+        "type": 2,
+        "rating": 4,
+        "status": "watched",
+        "checkedDate": "2021-06-27T21:21:41+00:00"
+    },
+    {
+        "title": "Érase una vez en... Hollywood",
+        "imdb": "tt7131622",
+        "type": 2,
+        "rating": 4,
+        "status": "watched",
+        "checkedDate": "2021-06-27T21:21:10+00:00"
+    },
+    {
+        "title": "Seaspiracy: La pesca insostenible",
+        "imdb": "tt14152756",
+        "type": 2,
+        "rating": 7,
+        "status": "watched",
+        "checkedDate": "2021-06-19T07:28:41+00:00"
+    },
+    {
+        "title": "Death Note",
+        "imdb": "tt0877057",
+        "type": 1,
+        "rating": 5,
+        "status": "watched",
+        "checkedDate": "2021-06-19T07:28:12+00:00"
+    },
+    {
+        "title": "Lock & Stock",
+        "imdb": "tt0120735",
+        "type": 2,
+        "rating": null,
+        "status": "pending",
+        "checkedDate": "2012-05-05T09:21:55+00:00"
+    }
+]
