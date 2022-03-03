@@ -55,9 +55,13 @@ describe("The application loads", () => {
                 if ($rated.is(':visible')){
                   return;
                 } else {
-                  cy.get(".summary-user-rating").click();
-                  const rate = "label.rating-"+ test.rating;
-                  cy.get(rate).click();
+                  if (test.rating === null) {
+                    return
+                  } else {
+                    cy.get(".summary-user-rating").click();
+                    const rate = "label.rating-"+ test.rating;
+                    cy.get(rate).click();
+                  }
                 }
               })
             }else {   
@@ -70,9 +74,13 @@ describe("The application loads", () => {
                 if ($rated.is(':visible')){
                   return;
                 } else {
-                  cy.get(".summary-user-rating").click();
-                  const rate = "label.rating-"+ test.rating;
-                  cy.get(rate).click();
+                  if (test.rating === null) {
+                    return
+                  } else {
+                    cy.get(".summary-user-rating").click();
+                    const rate = "label.rating-"+ test.rating;
+                    cy.get(rate).click();
+                  }
                 }
               })
             }
