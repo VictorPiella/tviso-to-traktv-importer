@@ -59,8 +59,8 @@ describe("The application loads", () => {
                     return
                   } else {
                     cy.get(".summary-user-rating").click();
-                    const rate = "label.rating-"+ test.rating;
-                    cy.get(rate).click();
+                    const rate = "label.needsclick.rating-"+ test.rating;
+                    cy.get(rate).click({force: true});
                   }
                 }
               })
@@ -78,8 +78,8 @@ describe("The application loads", () => {
                     return
                   } else {
                     cy.get(".summary-user-rating").click();
-                    const rate = "label.rating-"+ test.rating;
-                    cy.get(rate).click();
+                    const rate = "label.needsclick.rating-"+ test.rating;
+                    cy.get(rate).click({force: true});
                   }
                 }
               })
