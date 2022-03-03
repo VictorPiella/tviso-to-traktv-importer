@@ -51,17 +51,30 @@ describe("The application loads", () => {
           cy.wait(5000);
           cy.get("body").then($film => {
             if($film.find(".btn-watch.selected").length > 0){
-              cy.get(".summary-user-rating").click();
-              const rate = "label.rating-"+ test.rating;
-              cy.get(rate).click();
+              cy.get(".rated-text").then($rated => {
+                if ($rated.is(':visible')){
+                  return;
+                } else {
+                  cy.get(".summary-user-rating").click();
+                  const rate = "label.rating-"+ test.rating;
+                  cy.get(rate).click();
+                }
+              })
             }else {   
               cy.get(".btn-watch").find(".trakt-icon-time-plus").first().click();
               cy.get(".other-date").click();
               cy.get(".watch-date").clear().type(test.checkedDate);
               cy.get(".icon.yes").click();
-              cy.get(".summary-user-rating").click();
-              const rate = "label.rating-"+ test.rating;
-              cy.get(rate).click();
+
+              cy.get(".rated-text").then($rated => {
+                if ($rated.is(':visible')){
+                  return;
+                } else {
+                  cy.get(".summary-user-rating").click();
+                  const rate = "label.rating-"+ test.rating;
+                  cy.get(rate).click();
+                }
+              })
             }
           });
         }

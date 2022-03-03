@@ -47,8 +47,10 @@ describe("The application loads", () => {
           pendingNoFounds.push(test.title);
           console.log(pendingNoFounds);
         } else {
+          cy.log("results");
           cy.get(".grid-item").then($body => {
             if ($body.find(".actions > .list.selected").first().length > 0) {   
+              cy.log('already saved')
             }else{
               cy.get('.grid-item').find('.actions > .list').first().click();
             }
